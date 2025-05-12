@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student board</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <header>
+    <h1>👩‍🎓 Student board</h1>
+  </header>
+
+  <main>
+    <section class="student-info">
+      <p><strong>اسم الطالب:</strong> سارة أحمد رمضان</p>
+      <p><strong>المواد المسجلة:</strong> <span id="registeredCount">0</span></p>
+      <p><strong>المواد المتبقية:</strong> <span id="remainingCount">0</span></p>
+    </section>
+
+    <section class="subject-list">
+      <h2>📚 المواد المتاحة:</h2>
+      <ul id="subjectList">
+        <li><input type="checkbox" checked> WWW Programming</li>
+        <li><input type="checkbox" checked> WDT</li>
+        <li><input type="checkbox"> Web Design</li>
+        <li><input type="checkbox"> Data Communication</li>
+        <li><input type="checkbox"> Web Client</li>
+        <li><input type="checkbox"> Network-Based Multimedia</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
